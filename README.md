@@ -23,7 +23,16 @@ Rodar o comando abaixo no terminal para instalar as dependências:
 pod install
 ```
 
-Alterar a api key que esta em Constants.swift
+Criar um arquivo em Constants com o nome de ApiKey.swift com a estrutura abaixo:
+
+```
+struct ApiKey {
+private init() {}
+
+static let token = "sua_api_key"
+}
+
+```
 
 ## TODO
 
